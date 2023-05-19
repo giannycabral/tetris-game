@@ -4,8 +4,6 @@
     box-sizing: border-box;
     flex-direction: center;
     justify-content: center;
-
-    
 }
   
 button {
@@ -19,18 +17,13 @@ button:disabled {
   
 body {
     height: 100vh;
-    background: linear-gradient(to right, #050505, #ff3392, #050505);
+    background: linear-gradient(to right, #7feead, #fff, #7feead);
     align-items: center;
     display: flex;
-    
 }
   
 .container {
     padding: 16px;
-    
-    
-        
-
 }
   
 .buttons-container {
@@ -41,13 +34,11 @@ body {
     gap: 8px;
     justify-content: center; 
     box-sizing: border-box;
-    
-    
 }
   
 .buttons-container button {
-    border: none;
-    background: linear-gradient(to right, #cc0099, #ff80ca, #ff99d4);
+    border: 2px solid;
+    background: linear-gradient(to right, #00cc55, #80ffaa, #99ffe6);
     color: #000000;
     font-size: 20px;
     font-weight: bold;
@@ -56,16 +47,9 @@ body {
     box-sizing: border-box;
     flex-direction: center;
     align-items: center;
-   
-    
-    
-  
     transition: filter 0.2s;
 }
 
-
-
-  
 .buttons-container button:hover {
     filter: brightness(0.8);
 }
@@ -81,7 +65,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    
 }
   
 .grid div {
@@ -116,11 +99,15 @@ body {
     font-size: 32px;
     margin-top: 24px;
     border: none;
-    background: linear-gradient(to right, #cc0099, #ff80ca, #ff99d4);
-    color: #fff;
+    background: linear-gradient(to right, #00cc55, #80ffaa, #99ffe6);
+    color: #000000;
     font-weight: bold;
     border-radius: 4px;
     height: 32px;
+    padding: 4px;
+    display: flex;
+    margin-bottom: 24px;
+    
 }
   
 .shapePainted {
@@ -160,13 +147,13 @@ body {
 }
   
 .mobile-buttons-container button {
-    background: linear-gradient(to right, #cc0099, #ff80ca, #ff99d4);
-    border: none;
+    background: linear-gradient(to right, #00cc55, #80ffaa, #99ffe6);
+    border: 2px solid ;
     border-radius: 4px;
 }
   
 .mobile-buttons-container button span {
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
 }
   
